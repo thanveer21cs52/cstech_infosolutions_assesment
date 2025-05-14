@@ -1,0 +1,64 @@
+/* Navbar container */
+.main_container{
+	height: 100vh;
+	width: 100%;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #3bb19b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Heading in navbar */
+.navbar h1 {
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.logo{
+ color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Navbar links */
+.nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav_link:hover {
+  background-color: #2d9c7b;
+}
+
+/* Logout button */
+.white_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: #007bff;
+  border-radius: 20px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.white_btn:hover {
+  background-color: #007bff;
+}

@@ -1,0 +1,132 @@
+/* AgentList container styling */
+.agent-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Title styling */
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Agent card styling */
+.agent-card {
+  background-color: #3bb19b;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.agent-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Agent details styling */
+.agent-details {
+  margin-bottom: 15px;
+}
+
+.agent-details h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.agent-details p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Task list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Edit and Delete button styling */
+button {
+  background-color: #007bff;
+  width:10px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+button:active {
+  background-color: #007bff;
+}
+
+/* Edit form container styling */
+.edit-form-container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Input field and label styling */
+.edit-form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.edit-form-container label {
+  font-size: 14px;
+  color: #333;
+}
+
+button[type="submit"] {
+  background-color: #2196F3;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e88e5;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+}
+
+button[type="button"]:hover {
+  background-color: #e53935;
+}
+.agent-actions{
+  display: flex;
+ gap: 30px;
+ justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.agent-actions button{
+  width: 150px;
+}
+

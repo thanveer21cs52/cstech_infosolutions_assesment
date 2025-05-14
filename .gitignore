@@ -1,0 +1,19 @@
+# Ignore Node dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore environment variables
+.env
+client/.env
+server/.env
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore build files (optional if using React/Vite/etc.)
+dist/
+build/
